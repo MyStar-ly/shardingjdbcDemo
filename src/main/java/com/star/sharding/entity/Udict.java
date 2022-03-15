@@ -1,5 +1,8 @@
 package com.star.sharding.entity;
 
+import com.baomidou.mybatisplus.annotation.TableName;
+
+@TableName("t_udict")
 public class Udict {
 
     private Long dictid;
